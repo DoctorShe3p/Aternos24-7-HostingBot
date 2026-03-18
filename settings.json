@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "EverethingSMP.aternos.me:24168",
+    "port": 24168,
     "version": "",
     "try-creative": false
   },
@@ -27,13 +27,13 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 999999999999999999999999999999999999999,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "caca",
+        "caca",
+        "caca"
       ]
     },
     "chat-log": true,
@@ -54,14 +54,14 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 10
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": true,
+    "chat": false,
     "console-commands": true
   },
   "combat": {
